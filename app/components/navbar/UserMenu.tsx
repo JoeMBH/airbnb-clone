@@ -31,13 +31,13 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
           className="
             hidden
             md:block
-            text-sm
-            font-semibol
-            py-3
-            px-4
-            rounded-full
-            hover:bg-neutral-100
-            transition
+            text-sm 
+            font-bold 
+            py-3 
+            px-4 
+            rounded-full 
+            hover:bg-neutral-200 
+            transition 
             cursor-pointer
         "
         >
@@ -49,15 +49,15 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             p-4
             md:py-1
             md:px-2
-            border-[1px]
-            border-neutral-200
-            flex
-            flex-row
-            items-center
-            gap-3
-            rounded-full
-            cursor-pointer
-            hover:shadow-md
+            border-[1px] 
+            border-neutral-100 
+            flex 
+            flex-row 
+            items-center 
+            gap-3 
+            rounded-full 
+            cursor-pointer 
+            hover:shadow-md 
             transition
           "
         >
